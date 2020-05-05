@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <title>As 4 Maravilhas</title>
+	<link rel="stylesheet" type="text/css" href="../css/geral.css"/>
+    <link rel='stylesheet' type='text/css' href='../css/primavera.css' />
+    <script>
+        function mudaFoto(foto_0) {
+            document.getElementById('fotoCabecalho').src = foto_0; 
+        }
+        function animation(foto_1) {
+            
+        }
+    </script>
+</head>
+<body>
+	<div id="site-0">
+		<section id="top">
+			<header id="top-header">
+                <img id='fotoCabecalho' src="../images/primavera.png"/>
+				<nav id="top-h-nav">	
+					<ul id="top-h-list">
+						<h1>Menu-Home</h1>
+                        <li onmouseover="mudaFoto('../images/inverno0.png')"  onmouseout="mudaFoto('../images/primavera.png')"><a href="index.html">Estações do Ano</a></li>
+						<li onmouseover="mudaFoto('../images/primavera.png')" onmouseout="mudaFoto('../images/primavera.png')"><a href="primavera.html">Primavera</a></li>
+						<li onmouseover="mudaFoto('../images/verao.png')"     onmouseout="mudaFoto('../images/primavera.png')"><a  href="verao.html">Verão</a></li>
+						<li onmouseover="mudaFoto('../images/inverno1.png')"  onmouseout="mudaFoto('../images/primavera.png')"><a href="outono.html">Outono</a></li>
+						<li onmouseover="mudaFoto('../images/outono.png')"    onmouseout="mudaFoto('../images/primavera.png')"><a href="inverno.html">Inverno</a></li>
+					</ul>
+				</nav>
+			</header>
+			<h1>As 4 Maravilhas</h1>
+		</section> 
+    <section class="barra"></section>
+	<div id="site-1">
+		<a href="teste.html" target="_blank"/><h1>Dos Sabores e das Flores</h1></a> 
+	    <p>A Primavera pequeno gafanhoto, é onde as flores crescem e o verde surge pra abrandar o coração endurecido. O perfume das flores enche a sua alma num suspiro delirante!!
+        </p>
+        <figure class="foto">
+            <img src="../images/primavera.png"/>
+            <figcaption>
+                <p>Linda Flor!!</p>
+            <figcaption>
+        </figure>
+        <img src='../images/mapaFigurasGeometricas.jpg' usemap='#mapaFigurasGeometricas' />
+        <map name='mapaFigurasGeometricas'>
+            <area shape='rect'   coords='55,60,145,135'     href='teste.html'  target='_blank' />
+            <area shape='circle' coords='39,45,18'          href='teste1.html' target='_blank' />
+            <area shape='poly'   coords='100,138,70,190,130,190' href='teste2.html' target='_blank'  />
+        </map>
+	</div>
+    <section class="barra"></section>
+    <div id="siteFinal">
+        <footer id="rodaPe">
+            <a href="primavera.html#" target="_self"><img id="backTop" src='../images/inverno0.png'/></a>
+        </footer>
+    </div>
+</body>
+</html>

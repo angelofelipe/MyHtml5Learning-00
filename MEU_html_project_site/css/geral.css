@@ -1,0 +1,167 @@
+@charset 'UTF-8';
+/*Formatação de tags sem 'ID'ou 'CLASS'*/
+body { 
+	background-color: rgba(0,0,0,1);
+}
+/*Formatação de todas as <DIVs>*/
+div {
+    padding: 5px;    
+    width: 1250px;   
+    margin-left: auto;
+    margin-right: auto; 
+} 
+
+/*Formatação da <SECTION ID='TOP>'*/
+section#top {
+    margin: -21px auto 0px auto;
+    padding: 5px;    
+    width: 1250px;
+    height: 100px;
+    box-shadow: 0px 0px 15px rgba(90,200,150,.5);
+    background-color: rgba(55,55,55,1);
+}
+section#top h1 {
+    position: absolute;
+    top: 0px;
+    left: 850px;
+    font-family: Roman;
+    color: black;
+    /*color: rgba(90,300,70,1);*/
+    text-shadow: 1px 1px 2px rgba(90,200,150,.9);
+}
+
+/*Formatação do <HEADER ID='TOP-HEADER'>*/
+header#top-header img {
+    position: absolute;
+    left: 1100px;
+    top: 20px;
+}
+
+/*Formatação da <UL ID='TOP-H-LIST'>*/
+ul#top-h-list {
+    margin: 20px -40px;
+}
+ul#top-h-list li {
+    margin: auto 5px;
+    border: 1px solid rgba(10,10,10,1);
+    padding: 8px;
+    display: inline-block;
+    font-family: Roman;
+    font-size: 15pt;
+    list-style: none;
+    background-color: rgba(35,35,35,1);    
+    transition: 0.5s;		        
+}
+ul#top-h-list li:hover {
+    background-color: rgba(60,60,60,1);
+}
+ul#top-h-list a {
+    text-decoration: none;
+    color: rgba(90,200,150,1);    
+    transition: 0.01s;
+}
+ul#top-h-list a:hover {
+    color: rgba(90,300,70,1);
+    text-shadow: 0px 0px 6px rgba(90,300,200,1);
+}
+ul#top-h-list h1 {
+    display: none;
+} 
+
+/*Formatação da <DIV ID='SITE-1'>*/
+div#site-1 {
+	margin: 0px auto 0px auto;
+
+	box-shadow: 0px 0px 15px rgba(90,200,150,.5);
+ 	background-color: rgba(35,35,35,1);
+}
+div#site-1 h1 {
+    margin: 10px auto 10px auto;
+    border: 1px solid rgba(20,20,20,1);
+    padding: 10px;
+    background-color: rgba(20,20,20,1);    
+    color: rgba(200,200,200,1);
+}
+div#site-1 p {
+    margin: 10px auto 20px auto;   
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: justify;    
+    font-size: 14pt;
+    text-indent: 30px;
+}
+div#site-1 a {
+    text-decoration: none;
+}
+div#site-1 a.underline:hover {
+    text-decoration: underline;
+    color: rgba(200,200,200,1);
+}
+/*div#site-1 figure.foto img {
+    width: 100%;
+    height: 100%;
+}*/
+div#site-1 figure.foto { 
+    position: relative;
+    border: 1px solid rgba(20,20,20,1);
+    box-shadow: 0px 0px 5px rgba(90,200,150,.5);
+    background-color: rgba(20,20,20,1);
+}
+div#site-1 figure.foto figcaption {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(90,200,70,.3);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: 1s;
+}
+div#site-1 figure.foto:hover figcaption {
+    opacity: 1;
+}
+div#site-1 figure.foto figcaption p{      
+    padding: 10px;    
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 3px 6px black;
+    text-indent: 0px;
+    text-align: left;
+}        
+/*Formatação da <DIV ID='siteFinal'>*/
+div#siteFinal {
+    margin: 0px auto -9px auto;
+    height: 200px;
+    box-shadow: 0px 0px 15px rgba(90,200,150,.5);
+    background-color: rgba(55,55,55,1);
+
+}
+
+/*Formatação da <SECTION CLASS="BARRA">*/
+section.barra {
+    width: 1260px;
+    height: 10px;
+    margin: 0px auto 0px auto;
+    background-color: #074114;
+    opacity: 1; 
+}
+
+/*Formatação da seleção de cores <UL CLASS="CORES"*/
+ul.cores li.cor {
+    display: block;
+    margin: 0px auto 0px -40px; 
+}
+ul.cores li {
+    display: inline-block;
+    list-style: none;
+}
+ul.cores p {
+    display: none;
+}
+
+
+
+
+
+

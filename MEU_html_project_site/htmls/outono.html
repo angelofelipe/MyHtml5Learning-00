@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <title>As 4 Maravilhas</title>
+	<link rel="stylesheet" type="text/css" href="../css/geral.css"/>
+    <script>
+        function mudaFoto(foto_0) {
+            document.getElementById('fotoCabecalho').src = foto_0; 
+        }
+        function animation(foto_1) {
+            
+        }
+    </script>
+</head>
+<body>
+	<div id="site-0">
+		<section id="top">
+			<header id="top-header">
+                <img id='fotoCabecalho' src="../images/outono.png"/>
+				<nav id="top-h-nav">	
+					<ul id="top-h-list">
+						<h1>Menu-Home</h1>
+                        <li onmouseover="mudaFoto('../images/inverno0.png')"  onmouseout="mudaFoto('../images/outono.png')"><a href="index.html">Estações do Ano</a></li>
+						<li onmouseover="mudaFoto('../images/primavera.png')" onmouseout="mudaFoto('../images/outono.png')"><a href="primavera.html">Primavera</a></li>
+						<li onmouseover="mudaFoto('../images/verao.png')"     onmouseout="mudaFoto('../images/outono.png')"><a  href="verao.html">Verão</a></li>
+						<li onmouseover="mudaFoto('../images/outono.png')"  onmouseout="mudaFoto('../images/outono.png')"><a href="outono.html">Outono</a></li>
+						<li onmouseover="mudaFoto('../images/inverno1.png')"    onmouseout="mudaFoto('../images/outono.png')"><a href="inverno.html">Inverno</a></li>
+					</ul>
+				</nav>
+			</header>
+			<h1>As 4 Maravilhas</h1>
+		</section> 
+    <section class="barra"></section>
+	<div id="site-1">
+		<a href="teste.html" target="_blank"/><h1>E o Vento Levou...</h1></a> 
+	    <p>Esta é uma estação de mudanças drásticas, as folhas caem, a temperatura também, um lindo tapete forra as florestas e os enormes galhos antes encobertos por viçosas folhas, agora despidos estão de sua cobertura vegetal.
+        </p>
+        <figure class="foto">
+            <img src="../images/outono.png"/>
+            <figcaption>
+                <p>Olha Está Folha!! Não é Fantástica?"</p>
+            <figcaption>
+        </figure>
+	</div>
+    <section class="barra"></section>
+    <div id="siteFinal">
+        <footer id="rodaPe">
+            <a href="outono.html#" target="_self"><img id="backTop" src='../images/inverno0.png'/></a>
+        </footer>
+    </div>
+</body>
+</html>
